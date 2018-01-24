@@ -25,6 +25,7 @@ public class Login {
 		}
 		//driver.manage().window().maximize();
 		tamanoDeLaVentana = driver.manage().window().getSize().getWidth();
+		System.out.println("EL TAMAÑO DE LA VENTANA ES: " + tamanoDeLaVentana);
 	}
 
 	public static void ingresarAlaPagina(String valor) throws IOException {
