@@ -20,7 +20,7 @@ public class Menu {
 	}
 
 	public static void ingresarALaOpcionDePropuestas() throws InterruptedException, IOException {
-		if (tamanoDeLaVentana <= 1024) {
+		if (tamanoDeLaVentana < 1040) {
 			desplegarElMenu();
 		}
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
