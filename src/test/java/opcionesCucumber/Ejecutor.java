@@ -7,8 +7,8 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		features = "src/test/resources/caracteristicas",
-		//features = "src/test/resources/caracteristicas/ConceptualizarPropuestaSalud.feature",
+		//features = "src/test/resources/caracteristicas",
+		features = "src/test/resources/caracteristicas/ConceptualizarPropuestaSalud.feature",
 		//features = "src/test/resources/caracteristicas/AdicionarCategoriaSalud.feature",
 		//features = "src/test/resources/caracteristicas/AdicionarGrupoDeCoberturaSalud.feature",
 		//features = "src/test/resources/caracteristicas/AdicionarServicioSalud.feature",
