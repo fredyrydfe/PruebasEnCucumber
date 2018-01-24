@@ -21,8 +21,9 @@ public class Menu {
 
 	public static void ingresarALaOpcionDePropuestas() throws InterruptedException, IOException {
 		if (tamanoDeLaVentana <= 945) {
-			desplegarElMenu();
+			
 		}
+		//desplegarElMenu();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		WebElement elemento = driver.findElement(By.xpath("//*[@id=\"mCSB_2_container\"]/ul/li[3]/a/span[2]"));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
