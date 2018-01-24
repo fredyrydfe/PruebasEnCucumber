@@ -23,8 +23,8 @@ public class Login {
 		} else {
 			driver = new FirefoxDriver();
 		}
-		driver.manage().window().maximize();
-		tamanoDeLaVentana = driver.manage().window().getSize().getWidth();
+		//driver.manage().window().maximize();
+		//tamanoDeLaVentana = driver.manage().window().getSize().getWidth();
 	}
 
 	public static void ingresarAlaPagina(String valor) throws IOException {
